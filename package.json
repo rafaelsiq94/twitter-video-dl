@@ -1,0 +1,14 @@
+{
+  "name": "twitter-video-downloader",
+  "version": "1.0.0",
+  "description": "Download Twitter videos without an API key",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "twitter-url-direct": "^1.0.9",
+    "typescript": "^4.4.4"
+  }
+}
